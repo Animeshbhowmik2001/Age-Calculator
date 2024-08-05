@@ -1,0 +1,113 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 60px 70px;
+	border-radius: 50px;
+    background-color: grey;
+	/*background: url('background.jpeg') no-repeat center center/cover;*/
+	background: url('Picsart.jpg') no-repeat center center/cover; 
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 50px;
+}
+
+label {
+	display: block;
+	font-size: 24px;
+	margin-top: 50px;
+}
+
+input[type="date"] {
+	font-size: 20px;
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+button {
+	font-size: 20px;
+	padding: 10px 15px;
+	background-color: silver;
+	color: olivedrab;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+button:hover{
+    color: black;
+    border: none;
+    box-shadow: 0 0 50px goldenrod;
+}
+
+.result {
+	display: none;
+	font-size: 24px;
+	margin-top: 50px;
+}
+
+p {
+	margin: 0;
+}
+
+span {
+	font-weight: bold;
+}
+
+.footer{
+	height: 10px;
+	display: flex;
+	font-size: 23px;
+	justify-content: center;
+	align-items: center;
+}
+.name {
+	color: rgb(130, 26, 26);
+	font-size: 23px;
+  }
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 50%;
+	}
+
+	h1 {
+		font-size: 48px;
+		margin-top: 100px;
+	}
+
+	label {
+		font-size: 36px;
+		margin-top: 100px;
+	}
+
+	input[type="date"] {
+		font-size: 36px;
+		margin-bottom: 100px;
+	}
+
+	button {
+		font-size: 36px;
+		padding: 20px 40px;
+	}
+
+	.result {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+	}
+
+	p {
+		font-size: 36px;
+		margin-right: 20px;
+	}
+
+	span {
+		font-size: 48px;
+	}
+}

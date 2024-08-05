@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Age Calculator</title>
+	<link rel="icon" type="image/x-icon" href="mylogo.png">
+	<link rel="stylesheet" type="text/css" href="age.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Age Calculator</h1>
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob">
+		<button onclick="calculateAge()">Calculate Age</button>
+		<div class="result">
+			<p>Your age is:</p>
+			<p><span id="years"></span> years,</p>
+			<p><span id="months"></span> months, and</p>
+			<p><span id="days"></span> days old.</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="footer"> Created By <span class="name"> Animesh Bhowmik </span> | &copy; 2023 Age Calculator </div>
+	</div>
+
+
+	<script src="age.js"></script>
+</body>
+</html>
